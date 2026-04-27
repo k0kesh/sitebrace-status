@@ -1,0 +1,22 @@
+owner: k0kesh
+repo: sitebrace-status
+
+sites:
+  - name: Marketing site
+    url: https://sitebrace.com
+  - name: Marketing site (www)
+    url: https://www.sitebrace.com
+
+status-website:
+  cname: status.sitebrace.com
+  name: SiteBrace Status
+  introTitle: "SiteBrace service status"
+  introMessage: "Real-time uptime and response-time monitoring for SiteBrace customer-facing services. Updated every 5 minutes by GitHub Actions. For incidents, see the GitHub Issues tab."
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/k0kesh/sitebrace-status
+
+assignees:
+  - k0kesh
